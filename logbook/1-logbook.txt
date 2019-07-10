@@ -1,0 +1,16 @@
+-DAY 1: 09/07/19
+
+I read the information on the site "http://rubykoans.com/" and it would seem that the third link no work longer, so I read the documentation on http://beginrescueend.com/
+and I download the installer of a command line for ruby called "RubyInstaller for Windows".
+
+I found this last method simpler since the "PIK" project seems to be out of use since 2012.
+
+I download the ruby koans and put it on google drive because I don't wanna wasting time try to remember where I put my files and my USB. 
+I'm using sublime text 3 for writing the koans and to execute them I go to the "koans" folder, I press shift + right click and I click "Open PowerShell window here", then from PowerShell, I use the command ruby name_file.rb.
+
+I open a new public repository "https://github.com/Diciannovesimo/Ruby" and start to resolve koans.
+below I indicate the koans solved, besides indicating the level of difficulty that I felt by solving them in brackets (low) (medium) (high)
+
+Resolved:
+- about_array_assignment.rb (low)
+the electric current comes and goes for today I interrupt here.

@@ -1,0 +1,4 @@
+- DAY 2 10/07/19
+I found several difficulties to understand the second koans so I have decided to learn the basics of ruby on this site "https://www.tutorialspoint.com/ruby/index.htm"
+Resolved:
+- about_array.rb (High)
