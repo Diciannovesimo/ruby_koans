@@ -1,0 +1,16 @@
+- DAY 3 15/07/19
+after several days trying to study the Ruby logic, I learn how to comment on Ruby (single line, multiple lines), understanding the Ruby variables (type and scope) and Ruby Methods.
+the argument which has opened my mind is Ruby Ranges "https://www.techotopia.com/index.php/Ruby_Ranges"
+I never see this in no other language.
+
+in the last Koans I see the test test_other_objects_are_not_affected_by_these_singleton_methods
+In line 38 I finish first all the Koans except this, then I see the assert_raise deep. I know what assert_raise do "sees if an exception is raised" but I don't know the name of that exceptions so I try different solutions trying to write Exception NullException e. Exception but nothing work so I go on the public repository of this Koans "https://github.com/edgecase/ruby_koans/blob/master/src/about_class_methods.rb" and see what exception is raised in the next day I want to discover the "exception" on Ruby.
+
+Resolved:
+- about_assert.rb (Low)
+-about_block.rb (High)
+-about_class_method (Medium) 
+
+
+
+
