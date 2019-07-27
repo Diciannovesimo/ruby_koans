@@ -1,0 +1,17 @@
+- DAY 4 27/07/19
+
+today I learned a lot about the ruby classes and methods,
+I still have to fully understand the ":" and "::" functions
+but I realized that the first one serves to "mark" objects 
+instead the second one is used to refer to variables that are not local,
+depending on where you are in the code, I found the dice koans very funny,
+even though I didn't understand it immediately.
+
+Resolved:
+-about_classes(medium)
+-about_constants(low)
+-about_control_statements(low)
+-about_dice_project(medium)
+
+
+
