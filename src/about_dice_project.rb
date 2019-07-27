@@ -1,10 +1,26 @@
 require File.expand_path(File.dirname(__FILE__) + '/neo')
 
-# Implement a DiceSet Class here:
-#
-# class DiceSet
-#   code ...
-# end
+ #Implement a DiceSet Class here:
+
+class DiceSet
+  
+  def roll(value)
+    @range = [] 
+    i = 1
+
+    Array.new(value)
+
+    while i <= value
+      @range << rand(1..6)
+      i += 1
+    end
+  end
+
+  def values
+    @range
+  end
+
+end
 
 class AboutDiceProject < Neo::Koan
   def test_can_create_a_dice_set
@@ -44,6 +60,14 @@ class AboutDiceProject < Neo::Koan
       "Two rolls should not be equal"
 
     # THINK ABOUT IT:
+    #
+    # yes there is a possibility that the two are the same, 
+    # I don't think there is a better way to test it, 
+    # if not by shuffle or making unique the sequence of numbers
+    # that are generated, but in any case there would be the 
+    # possibility that the numbers are the same, we could also 
+    # alter the structure of the class, so the test would
+    # no longer make sense.
     #
     # If the rolls are random, then it is possible (although not
     # likely) that two consecutive rolls are equal.  What would be a
