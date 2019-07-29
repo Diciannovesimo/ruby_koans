@@ -27,3 +27,18 @@ instSection = {
 }
 
 puts instSection['oboe']
+
+puts a.length
+
+b = [0, 1]
+b[0] += 1
+b[0] += 1
+
+puts b[0]
+
+c = [3, 3, 1, 2, 5, 5]
+b = c.sort.uniq.length
+puts "test b"
+puts b
+puts "test c"
+puts c
