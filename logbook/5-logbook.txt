@@ -1,0 +1,21 @@
+DAY 5 28-29/07/19
+in these two days, I focused on these koans, 
+finding difficulties in the "scoring project"
+ because I realized I was still thinking as if 
+I were working with java or c for the other koans 
+I found them quite easy and I understood what they 
+wanted to say.
+
+I can't get java koans to start, also I didn't 
+finish the dice game koans and in "about_methods.rb" 
+I skipped a test because I didn't understand it.
+
+Resolved:
+about_message_passing.rb(low)
+about_keyword_arguments.rb(medium)
+about_nil.rb(low)
+about_iteration.rb(medium)
+about_inheritance.rb(medium)
+about_scroing_project.rb(high)
+about_hashes.rb(medium)
+about_exceptions.rb(high)

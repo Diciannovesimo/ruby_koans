@@ -1,0 +1,11 @@
+DAY 6 31/07/19
+nothing new to add in these exercises. 
+I've seen things I've seen before, 
+except in about_scope.rb
+
+Solved:
+about_objects.rb(medium)
+about_open_classes.rb(medium)
+about_to_str.rb(low)
+about_scope.rb(medium)
+about_modules(low)
