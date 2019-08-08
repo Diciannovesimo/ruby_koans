@@ -25,7 +25,8 @@ class AboutKeywordArguments < Neo::Koan
   end
 
   # THINK ABOUT IT:
+  # 
   #
   # Keyword arguments always have a default value, making them optional to the caller
-
+  # we can create methods that take optional named arguments like def keyword
 end
