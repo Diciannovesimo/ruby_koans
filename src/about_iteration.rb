@@ -122,5 +122,9 @@ class AboutIteration < Neo::Koan
   #   # code to read 'file'
   #
   # When you get to the "AboutSandwichCode" koan, recheck your answer.
-
+  # because in this way we follow the "sandwich principle"
+  # This principle says that when you have two pieces of code 
+  # that are almost identical, except for the “middle” part, 
+  # you can create a method that takes
+  # a block to fill the “middle” part.
 end

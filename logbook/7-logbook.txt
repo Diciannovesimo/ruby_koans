@@ -7,3 +7,5 @@ Solved:
 about_true_and_false(low)
 about_regular_expressions.rb(high)
 about_variable_scope.rb(medium)
+about_sandwwich_code.rb(medium)
+about_strings.rb(medium)
