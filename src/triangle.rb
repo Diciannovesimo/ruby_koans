@@ -14,7 +14,22 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # WRITE THIS CODE
+	# WRITE THIS CODE
+	sum = (a + b + c) / 2.0
+ 	must_be_higher_than_zero = (sum - a) * (sum - b) * (sum - c)
+
+  	if a <= 0 || b <= 0 || c <= 0 || must_be_higher_than_zero <= 0 then 
+   	 raise TriangleError
+  	end
+
+ 	 if triangle(a, b, c).uniq.lengths == 1 then
+  	  :equilateral
+ 	 elsif a == b || a == c || b == c then
+  	  :isosceles
+		  else
+		    :scalene
+		  end
+  	 end
 end
 
 # Error class used in part 2.  No need to change this code.
