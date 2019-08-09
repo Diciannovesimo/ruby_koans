@@ -22,9 +22,11 @@ def triangle(a, b, c)
    	 raise TriangleError
   	end
 
- 	 if triangle(a, b, c).uniq.lengths == 1 then
+  	sides = triangle(a, b, c).uniq.lengths
+
+ 	 if sides == 1 then
   	  :equilateral
- 	 elsif a == b || a == c || b == c then
+ 	 elsif sides == 2 then
   	  :isosceles
 		  else
 		    :scalene
