@@ -33,17 +33,44 @@ def score(dice)
   
 return 0 if(dice == [])
 
-dice.sort!
+    #if($no_score_dice == 0)
+    #  $no_score_dice = dice.length
+    #end
 
-return 1000 + score(dice[3..-1]) if(dice[0..2] == [1,1,1])
-return 600 + score(dice[3..-1]) if(dice[0..2] == [6,6,6])
-return 500 + score(dice[3..-1]) if(dice[0..2] == [5,5,5])
-return 400 + score(dice[3..-1]) if(dice[0..2] == [4,4,4])
-return 300 + score(dice[3..-1]) if(dice[0..2] == [3,3,3])
-return 200 + score(dice[3..-1]) if(dice[0..2] == [2,2,2])
-return 100 + score(dice[1..-1]) if(dice[0] == 1)
-return 50 + score(dice[1..-1]) if(dice[0] == 5)
-return 0 + score(dice[1..-1]);
+    i = 1
+    dice.sort!
+
+    # score of a triple
+    if dice.length >= 3
+
+      while i <= 6
+      
+        if(dice[0..2] == [i,i,i])
+          #$no_score_dice -= 3 
+
+          if i == 1
+            return 1000 + score(dice[3..-1]) 
+          else
+            return i*100 + score(dice[3..-1])
+
+          end
+        end
+        i += 1
+      end
+    end
+
+    # score of a single
+    if(dice[0] == 1)
+      #$no_score_dice -= 1
+      return 100 + score(dice[1..-1])
+    end
+     
+    if(dice[0] == 5)
+      #$no_score_dice -= 1
+      return 50 + score(dice[1..-1]) 
+    end
+
+    return 0 + score(dice[1..-1]);
 
 end
 
