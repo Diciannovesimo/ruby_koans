@@ -13,9 +13,11 @@ DiceSet class :
 contains the function to roll the dice 
 and for calculate the score
 
-roll(value) :
+roll(value) : random number generator, return an array with (value) number 
+			  from 1 to 6
 
-score(dice) :
+score(dice) : acquiring an array with number and return the score and the
+			  non scoring values (see the rule on GREED_RULES.TXT)
 
 =end
 class DiceSet
@@ -153,13 +155,19 @@ end
 
 =begin
 
-DiceSet class : 
-contains the function to roll the dice 
-and for calculate the score
+Game class : 
 
-roll(value) :
+initialize(number_of_players, player_names): 
+initialize the game and all the constant.
 
-score(dice) :
+turn: define the turn of the players, when the turn start,
+	  when the game go on the final stage or continue.
+
+start: function to start the program
+
+game_status: function that checks if you continue playing or if the last round starts
+
+end_game: stamp the leaderboard when the game end
 
 =end
 
